@@ -1,0 +1,12 @@
+import java.io.IOException;
+
+public class Main{
+    public static void main(String[] args) throws IOException {
+        var text = "Never forget what you are, for surely the world will not";
+        // var text2 = text.charAt(text.length() - 10);
+        String name = "First: "
+                + text.charAt(0)
+                + "\nLast: "
+                + text.charAt(text.length() - 1);
+
+        System.out.println(name);
