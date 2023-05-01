@@ -1,5 +1,8 @@
-   var email = " SupporT@hexlet.io\n";
-        email = email.trim();// метод позволяет в Java удалить пробелы в начале и конце строки 
-        email = email.toLowerCase(); //метод переводит строку в нижний регистр
+import java.util.Scanner;
 
-        System.out.print(email);
+public class Main{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    System.out.println(a + b);
