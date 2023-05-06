@@ -1,9 +1,6 @@
-import java.time.LocalDate;
+public class Main{
+    public static void main(String[] args) {
+        var emoji = "-(";
+        var emoji2 = ":" + emoji.replace('(', ')');
 
-public class Main {
-    public static void main(String[] args){
-        var currentDate = LocalDate.now();
-        var text = "Today is: " + currentDate;
-        System.out.println(text);
-    }
-}
+        System.out.print(emoji2);
