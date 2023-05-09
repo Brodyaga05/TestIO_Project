@@ -1,6 +1,0 @@
-public class Main{
-    public static void main(String[] args) {
-        var emoji = "-(";
-        var emoji2 = ":" + emoji.replace('P', ')');
-
-        System.out.print(emoji2);
